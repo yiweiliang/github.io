@@ -1,91 +1,167 @@
-
-body {
-	font-family: "Open Sans", Arial, Helvetica, sans-serif;
-	background-position:white;
-	font-size:15px;
-	line-height: 16px;
-}
-.clear {
-	clear:both;
+*{
+	color:black;
+	background:transparent;
 }
 
+@page{margin:8pt;}
 
-#paper {
-	width:828px;
-	margin:20px auto;
-	background-color:white;
-	height:1000px;
+
+.entry img.portrait {
+	
+	width:145pt;
+	height:165pt;
+	padding-left:5pt;
+	padding-right:10pt;
+
+	margin-left:30pt;
+	float:left;
+	top:35pt;
+	
 }
+
+
+.self {
+	width:240pt;
+	float:left;
+	padding-top:8pt;
+	margin-left:35pt;
+	margin-bottom:13pt;
+}
+
+.self ul {
+	padding-top: 7.5pt;
+}
+
+
+.self ul li.email {
+	background-image:url(../images/icn-mail.jpg);
+}
+
+.self ul li.tel {
+	background-image:url(../images/icn-tel.jpg);
+}
+
+.self ul li.web {
+	background-image:url(../images/icn-web.jpg);
+}
+
+.self ul li {
+	background-repeat: no-repeat;
+	padding-left:19.5pt;
+	background-position: 0 .1em;
+	height:18.75pt;
+	display:block;
+	margin-top:-1.5pt;
+}
+
+
+
+.social {
+	width:150pt;
+	float:left;
+	padding-left:20pt;
+	margin:0 auto -5pt auto;
+}
+
+.social ul {
+	list-style: none;
+	margin:none;
+	padding-left:20pt;
+}
+
+.social ul li {
+	float:left;
+	width:15pt;
+	height:16pt;
+	margin:0;
+	padding:0;
+	margin-left:4pt;
+}
+
+
+
+
+
+
+a, a:visited, a:active {
+	color:black;
+	text-decoration: none;
+}
+
+
 .entry {
-	width:720px;
+	width:540pt;
 	display: block;
-	padding-top:35px;
+	padding-top:3pt;
 	clear: both;
-	margin-left:4px;
+	margin-left:2pt;
 	padding-bottom:0;
+	position:relative;
 
 }
 
 h1  {
-	width:250px;
-	font-size:30px;
+	width:240pt;
+	font-size:38pt;
 	color:#1b4491;
-	margin-bottom:5px;
+	margin-bottom:0;
 	clear:both;
 	font-weight:bold;
 
 }
 
 h1 span {
-	font-size:21px;
+	font-size:20pt;
 	display:block;
-	color:#1b4491;
-	margin-top:15px;
-	font-weight:none;
+	color:#505050;
+	margin-top:-2pt;
+    margin-left:20pt;
 }
 
 h2 {
-	width:180px;
-	height: 23px;
+	width:170pt;
+	height: 17.25pt;
 	text-align: right;
 	float:left;
 	padding:0;
 	clear:both;
-	font-size:22px;
+	font-size:20pt;
 	color:#1b4491;
-	margin-bottom:-12px;
+	margin-bottom:18pt;
 	font-weight:bold;
+	margin-left:-25pt;
 }
 
 p {
-	width:500px;
-	margin-left:40px;
+	width:360pt;
+	margin-left:30pt;
 	float:right;
-	font-color:#505050 ;	
+	font-color:#505050;	
 }
 
 p img {
 	float:right;
-	margin-left:20px;
-	padding-left:10px;
+	margin-left:15pt;
+	padding-left:15pt;
 }
 
 div.content {
 	clear: both;
 	margin:0 auto;
+	overflow: hidden;
 	display:block;
-	padding-top:30px;
+	padding-top: 5pt;
 	width:100%;
 }
 
 
 h3 {
-	width:180px;
+	width:140pt;
 	text-align: right;
 	float:left;
-	padding:0;
+	margin-bottom: -9pt;
 	clear:both;
-	font-size: 15px;
+	font-size: 13pt;
 	color:#505050 ;
 }
 
@@ -94,14 +170,16 @@ em {
 	font-family: "Open Sans";
 	font-style: italic;
 	color:#505050 ;
-	font-size:14px;
+	font-size:11pt;
 	display: block;
-	padding-top:3px;
+	padding-top:2pt;
 }
+
+
 ul.info {
 	float:right;
-	width:500px;
-	margin-left:40px;
+	width:370pt;
+	margin-left:29.5pt;
 	list-style-type: none; 
 }
 
@@ -109,18 +187,20 @@ ul.info li {
 	padding:0;
 	float:left;
 	display: block;
-	width:500px;
-	padding-left:10px;
-	margin-top:20px;
+	width:360pt;
+	background-image:url(../images/bullet.jpg);
+	background-repeat: no-repeat;
+	padding-left:7pt;
+	background-position: 0 .5em;
+	margin-top:2pt;
 }
 
 ul.skills {
-	margin:0;
+	margin-top:-4pt;
 	padding:0;
 	float:right;
-	width:500px;
-	margin-left:40px;
-	margin-top:-6px;
+	width:375pt;
+	margin-left:29.5pt;
 	list-style-type: none;
 	
 }
@@ -128,38 +208,10 @@ ul.skills {
 ul.skills li {
 	padding:0;
 	float:left;
-	padding-left:10px;
-	margin-top:6px;
+	width:117pt;
+	background-image:url(../images/bullet.jpg);
+	background-repeat: no-repeat;
+	padding-left:7.5pt;
+	background-position: 0 .5em;
 }
-
-
-
-img.portrait {
-	border:1px solid #000;
-	padding:10px;	
-}
-
-.self {
-	width:500px;
-	float:left;
-	padding-top:11px;
-	margin-left:0;
-	margin-bottom:15px;
-	margin-left:38px;
-}
-
-.self ul {
-	padding-top: 10px;
-}
-
-.self ul li {
-	padding-left:0;
-	height:25px;
-	display:block;
-	margin-top:-2px;
-}
-
-.social {
-	display:none;
-}
-
+	
