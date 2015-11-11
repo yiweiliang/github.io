@@ -1,8 +1,7 @@
 
 
- body,   
-h1, h2, h3,  p, 
- em, ul, li,div
+   
+h1, h2, h3,  p, em, ul, li,div
  {
 	margin: 0;
 	padding: 0;
