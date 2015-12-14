@@ -1,9 +1,245 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<title>hey</title>
-</head>
-<body>
-<h1> Kobe bryant </h1>
-</body>
+	<head>
+		<title>Welcome to Yiwei Liang's Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/type.js" type="text/javascript"></script>
+    <script>
+    $(function(){
+
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 40,
+            backDelay: 3000,
+            loop: false,
+            contentType: 'html', 
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
+
+    <style>
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+    </style>
+		
+	</head>
+	<body>
+
+			<div id="header">
+
+				<div class="top">
+
+						<div id="logo">
+							<div class="ylogo"><img src="1.png" alt="logo" />
+							</div>
+
+
+
+        
+
+							<h2 id="title">Yiwei Liang</h2>
+						</div>
+		
+						<nav id="nav">
+							<ul>
+								<li><a href="#top">Home</a></li>
+								<li><a href="#about">About Me</a></li>
+							    <li><a href="#portfolio">Portfolio</a></li>
+							
+								
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+				
+						<ul class="icons">
+							<li><a href="https://twitter.com/liang_yiwei" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/yiwei.liang.52" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/yiweiliang" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://instagram.com/yiweiliang/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+			<div id="main">
+
+					<section  id="top" class="cover">
+		
+ <header>                                 
+   	<h2 class="alt">Bonjour, I'm <span class="orange"> Yiwei Liang</span></h2> </header>
+   	 <div id ="typed-strings">
+     <p>I am <strong> enthusiastic</strong> about<strong> design.</strong></p> 
+     <p>I am also <strong> passionate </strong> about <strong>filmmaking.</strong></p>
+     <p>I love <strong> technology</strong> and believes <br />that the only way to thrive is to <strong> innovate.</strong></p>                  
+     <p>I used to <strong> dream</strong> about becoming a industrial Designer.</p>  
+     <p>I appreciate <strong>engaging stroytelling</strong> through <strong>Cinematography.</strong> </p> 
+     <p>Life is too short to make a difference, <strong>Carpe Diem.</strong></p>     
+     <p><strong>Follow Me</strong> on social media!</p>
+      <p>Life is too short to make a difference, <strong>Carpe Diem.</strong></p>
+      <p>I am <strong> enthusiastic</strong> about<strong> design.</strong></p> 
+     <p>I am also <strong> passionate </strong> about <strong>filmmaking.</strong></p>
+     <p>I love <strong> technology</strong> and believes <br />that the only way to thrive is to <strong> innovate.</strong></p>                   
+      </div> 
+
+<span id="typed" style="white-space:pre;"></span>
+</section>
+	
+					
+
+<section id="about" class="two">
+
+    <header>
+		<h2>About Me</h2>
+	</header>
+<a href="resume/resume.html"><div class="morph">
+</div></a>
+ 
+<div class="bio"><p>&nbsp;&nbsp;&nbsp;&nbsp; As a recent graduate from the University of Miami, with a master degree 
+ in Communication Studies, I have undertaken several internships within educationl institutions such as UM Medical School as a graphic design and marketing intern as well as a broadcast camera operator at the Rogers Television Networks in Ottawa, Canada. These placements have enabled me to develop not only specific media-related experience, but also a valuable and transferable skill set in this fast-paced sector in general. I also beleive that a true scholar must be "well-read and well-traveled". This well-known Chinese saying points to two essential qualities that a successful student and scholar must possess—ample knowledge and practical experience. I believe this principle holds especially true for practitioners of mass communication because it is more of an applied academic discipline.</p>
+</div>
+</section>
+
+<section id="portfolio" class="three">
+  <div class="container">
+	<header>
+	<h2>Portfolio</h2>
+	</header>
+
+	<p>Here are some of my recent creations</p>
+
+	<div class="row">
+								<div class="4u 12u$(mobile)">
+									<figure class="magazine">
+
+  <div class="overlay"> <a href='pages/magazine.html'><img src="images/pic03.png" alt="Magazine Design" width="400" height="300"></a></div>
+  <figcaption><span class="description">Magazine Design</span></figcaption>
+</figure>
+								</div>
+								
+								
+							</div>
+
+							<div class="4u 12u$(mobile)">
+								
+									<figure class="magazine">
+
+  <div class="overlay"><a href='pages/weather.html'><img src="images/pic04.png" alt="Weather App" width="400" height="300"></a></div>
+  <figcaption><span class="description">Weather App</span></figcaption>
+</figure>
+								
+								</div>
+					
+									<div class="4u 12u$(mobile)">
+									<figure class="film">
+ 
+  <div class="overlay"><a href='pages/film.html'><img src="images/pic05.png" alt="Short Film" width="400" height="300"></a></div>
+  <figcaption><span class="description">Short Film</span></figcaption>
+</figure>
+								
+								</div>
+							
+									<div class="4u 12u$(mobile)">
+									<figure class="grapic design">
+
+  <div class="overlay"><a href='pages/graphic.html'><img src="images/pic06.png" alt="Graphic Design" width="400" height="300"></a>
+  </div>
+  <figcaption><span class="description">Graphic Design</span></figcaption>
+</figure>
+								
+								</div>
+
+								
+
+								<div class="4u 12u$(mobile)">
+							
+									<figure class="film">
+
+  <div class="overlay"><a href='pages/cinematography.html'><img src="images/pic07.png" alt="Cinematography" width="400" height="300"></a>
+  </div>
+  <figcaption><span class="description">Cinematography</span></figcaption>
+</figure>
+								
+								</div>
+								<div class="4u 12u$(mobile)">
+							
+									<figure class="graphic">
+
+  <div class="overlay"><a href='pages/website.html'><img src="images/pic08.png" alt="Website Design" width="400" height="300"></a>
+  </div>
+  <figcaption><span class="description">Website Template Design</span></figcaption>
+</figure>
+								
+								
+							</div>
+
+					
+
+					
+						</div>
+						</section>
+					</div>
+
+				
+
+
+			
+			
+		
+			
+			
+
+	</body>
 </html>

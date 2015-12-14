@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:"Raleway", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #061C37;
+	background: rgba(226,226,226,1);
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto; 
+}
+
+
+#Main
+{
+width:800px;
+height:345px;
+background-color:#FFFFFF;
+margin-right:155px;
+position:relative;}
+
+
+
+#Main .picture
+{
+position:relative;
+width:780px;
+height:325px;
+top:10px;
+background-image:url(../images/cinematography.png);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+#headerTitle
+{
+position:relative;
+top:48px;
+left:5px;
+font-size:21px;
+color:#F80000 ;
+font-family:"Raleway", Georgia, "Times New Roman", Times, serif;
+}
+
+#headerSubtext
+{
+position:relative;
+top:30px;
+left:15px;
+font-size:15px;
+color:black;
+font-family:"Raleway", Georgia, "Times New Roman", Times, serif;
+}
+
+.contentBox
+{
+width:800px;
+height:400px;
+background-color:#FFFFFF;
+margin-right:155px;
+}
+
+.contentBox .innerBox
+{
+position:relative;
+margin-top:10px;
+width:780px;
+height:380px;
+top:10px;
+background-color: rgba(235,233,249,1);;
+background-repeat:repeat-x;
+}
+
+.contentTitle
+{
+font-size:19px;
+margin-bottom:0px;
+padding-top:18px;
+margin-left:15px;
+margin-top:15px;
+}
+
+.contentText
+{
+font-size:13px;
+line-height:24px;
+margin-left:13px;
+margin-right:13px;
+color:black;
+}
+div .top h2{margin-top:30px;}

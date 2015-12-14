@@ -18,9 +18,10 @@ h1, h2, h3,  p, em, ul, li,div
 
 body {
 	font-family: "Open Sans", Arial, Helvetica, sans-serif;
-	background-image: url(../images/bg.jpg);
+	background-image: url(../images/2.svg);
 	background-repeat: no-repeat;
 	background-position:top;
+	background-size:cover;
 	font-size:15px;
 	line-height: 16px;
 	overflow:scroll;
