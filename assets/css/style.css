@@ -76,10 +76,7 @@ strong {
 	
 	}
 
-		a:hover {
-			color:#33ccff;
-		}
-
+		
 	
 
 
@@ -341,31 +338,24 @@ figure:hover img{
 		}
 
 	#nav ul{width:100%;color:white;padding:0;}
-	#nav ul li {margin:25px auto;}
+	#nav ul li {margin:0 auto; padding:0;}
 	#nav ul li a {
 		display: block;
-		padding: 1.5em 1.5em 1.5em 1.5em;
+		padding: 0.5em 1.5em 0.5em 1.5em;
 		color: rgba(255, 255, 255, 0.5);
 		text-decoration: none;
-		
-		border-top: 1px solid #000000;
-
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 25px;
   position: relative;
+  margin:0 auto;
 }
 		
-#nav ul li a:hover > a,
-#nav ul li a:active > a
+#nav ul li a:hover,
+#nav ul li a:active 
  {
 
-  color: black;
+  color:#33ccff;
 }
-
-
-			#nav ul li a.active span:before {
-				color: #e27689;
-			}
 
 
 
@@ -486,24 +476,7 @@ figure:hover img{
 				margin: 0 0 0.4em 0;
 			}
 
-			#nav ul li a {
-				font-size: 1.0em;
-				padding-top: 0.7em;
-				1
-
-			}
-
-				#nav ul li a span {
-					padding-right: 2.25em; 
-				}
-
-					#nav ul li a span:before {
-						left: 100%;
-						margin-left: -1.25em;
-						line-height: 1.55em;
-					}
-
-		
+			
 
 			#main {
 				margin-left: 19.5%;
@@ -568,20 +541,18 @@ figure:hover img{
 				}
 
 				#header .bottom {
-					border-top: solid 1px rgba(255, 255, 255, 0.05);
-					box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.15);
+					
+				
 					padding-top: 2em;
-					margin-top: 1em;
-					position: relative;
+					margin-top: 0;
+					position: absolute;
 				}
 
 			#logo {
 				margin: 1.5em 1.25em 1.25em 1.25em;
 			}
 
-			#nav ul li a {
-				padding: 0.5em 1.25em 0.5em 1.25em;
-			}
+			
 
 			
 				
